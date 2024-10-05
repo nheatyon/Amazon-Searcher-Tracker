@@ -1,0 +1,123 @@
+{
+  "bot_name": "nheatyon_bot",
+  "bot_token": "INSERT_YOUR_BOT_TOKEN",
+  "table_name": "BotUsers",
+  "not_implemented": "⛔ Function not implemented yet!",
+  "syntax_error": "*❌ The command you entered is incorrect\\.\n\n✍ • Please type:* ",
+  "user_not_found": "⚠ <b>Invalid user entered!</b>",
+  "welcome_message": "Welcome to the bot! Select an option: ",
+  "best_offers_message": "🔥 <b>Best offers:</b>",
+  "start_menu": {
+    "1": {
+      "🔍 Search offers": {
+        "callback": "search_offers"
+      },
+      "🔥 Best Offers": {
+        "callback": "get_best_offers"
+      }
+    },
+    "2": {
+      "🏃 Track Products": {
+        "callback": "track_offers"
+      },
+      "⌚ Tracked Products": {
+        "callback": "get_tracked_products"
+      }
+    },
+    "3": {
+      "⚡ Today's Lightning Deals": {
+        "url": "https://www.amazon.com/deals"
+      }
+    },
+    "4": {
+      "📢 Follow our official channels": {
+        "callback": "get_channels"
+      }
+    }
+  },
+  "official_channels_format": "%channel% 👉 %link%",
+  "official_channels": {
+    "1": {
+      "channel_name": "💬️ CONTACT US ON TELEGRAM",
+      "link": "https://t.me/nheatyon"
+    }
+  },
+  "search_limit": 15,
+  "items_per_keyboard": 9,
+  "trackable_per_row": 6,
+  "max_trackable_limit": 10,
+  "search_delay_ms": 1000,
+  "track_delay_ms": 60000,
+  "homepage_button": "🏠 Homepage",
+  "send_link_to_track": "📌 <b>Send the product link to track:\n\nFormats: \n- <code>https://www.amazon.com/dp/BXXXXXXXXX/</code>\n- <code>https://amzn.to/XXXXXXX/</code></b>\n\n⇢ To return to the bot, click <b>🚫 End Operation</b>",
+  "search_msg": "🔍 <b>Searching...</b>",
+  "search_success": "✅ <b>Found:</b>",
+  "search_failed": "❌ <b>No results found!</b>",
+  "total_users": "👥 Total users: %total_users%",
+  "total_tracks": "📌 Tracked products: %total_tracks%",
+  "click_to_track": "📌 <b>Click one of the buttons below to track the product:</b>",
+  "invalid_track_url": "❌ <b>Invalid link! Try again.</b>",
+  "tracked_successfully": "✅ <b>Product tracked successfully!</b>",
+  "tracked_products": "📌 <b>Tracked products:</b>",
+  "size_tracked_products": "➟ <b>Tracked products: %size%</b>",
+  "suggest_remove_product": "➟ <i>To remove a product, type <b>/remove</b></i>",
+  "no_trackable_products": "❌ <b>You have no tracked products!</b>",
+  "already_tracked": "❌ <b>Product already tracked!</b>",
+  "max_trackable": "❌ <b>You have reached the maximum number of trackable products!</b>",
+  "no_product_found": "❌ <b>Product not found!</b>",
+  "product_removed": "✅ <b>Product removed successfully!</b>",
+  "invalid_asin": "❌ <b>Invalid ASIN! Try again.</b>",
+  "added_to_tracks": "✅ Product successfully added to tracks!",
+  "already_in_tracks": "❌ Product already in tracks!",
+  "max_tracks_reached": "❌ You have reached the maximum number of tracked products!",
+  "price_updated_notify": "📌 <b>The price of the product <i>%title%</i> has changed!\n\n⇢ New price: <i>%price%</i>\n⇢ Previous price: <i>%old_price%</i></b>",
+  "terminate_button": "🚫 Terminate Operation",
+  "operation_terminated": "❌ Operation terminated!",
+  "next_button": "Next 🔜",
+  "back_button": "🔙 Back",
+  "insert_keyword": "🔎 Enter the keyword to search.\n\n⇢ To return to the bot, click <b>🚫 End Operation</b>",
+  "callback_not_valid": "You are performing another operation!",
+  "amazon_access_key": "INSERT_YOUR_AMAZON_ACCESS_KEY",
+  "amazon_secret_key": "INSERT_YOUR_AMAZON_SECRET_KEY",
+  "amazon_partner_tag": "INSERT_YOUR_AMAZON_PARTNER_TAG",
+  "amazon_host": "INSERT_YOUR_AMAZON_HOST",
+  "amazon_region": "INSERT_YOUR_AMAZON_REGION",
+  "categories": {
+    "Apparel": "👕 Apparel",
+    "Appliances": "🔌 Appliances",
+    "Automotive": "🚗 Automotive",
+    "Baby": "👶 Baby",
+    "Beauty": "💄 Beauty",
+    "Books": "📚 Books",
+    "Computers": "💻 Computers",
+    "DigitalMusic": "🎵 Digital Music",
+    "Electronics": "📱 Electronics",
+    "EverythingElse": "🌐 Everything Else",
+    "Fashion": "👗 Fashion",
+    "ForeignBooks": "🌍 Foreign Books",
+    "GardenAndOutdoor": "🌳 Garden and Outdoor",
+    "GiftCards": "🎁 Gift Cards",
+    "GroceryAndGourmetFood": "🛒 Grocery and Gourmet Food",
+    "Handmade": "🎨 Handmade",
+    "HealthPersonalCare": "🌡️ Health & Personal Care",
+    "HomeAndKitchen": "🛋️ Home & Kitchen",
+    "Industrial": "🏭 Industrial",
+    "Jewelry": "💍 Jewelry",
+    "KindleStore": "📖 Kindle Store",
+    "Lighting": "💡 Lighting",
+    "Luggage": "🧳 Luggage",
+    "MobileApps": "📱 Mobile Apps",
+    "MoviesAndTV": "🎥 Movies & TV",
+    "Music": "🎶 Music",
+    "MusicalInstruments": "🎻 Musical Instruments",
+    "OfficeProducts": "📎 Office Products",
+    "PetSupplies": "🐾 Pet Supplies",
+    "Shoes": "👞 Shoes",
+    "Software": "💻 Software",
+    "SportsAndOutdoors": "⚽ Sports & Outdoors",
+    "ToolsAndHomeImprovement": "🔧 Tools & Home Improvement",
+    "ToysAndGames": "🎲 Toys & Games",
+    "VideoGames": "🎮 Video Games",
+    "Watches": "⌚ Watches"
+  }
+}
