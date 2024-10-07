@@ -29,7 +29,7 @@ The data refer to your Amazon affiliate account (must be enabled to use PAAPI)
 
 ## Technologies used (What I remember)
 
-* <a href="https://github.com/rubenlagus/TelegramBots">TelegramBots API</a>
+* <a href="https://github.com/rubenlagus/TelegramBots">TelegramBots-API</a>
 * <a href="https://github.com/brettwooldridge/HikariCP">HikariCP</a>
 * <a href="https://github.com/xerial/sqlite-jdbc">SQLite-JDBC</a>
 * <a href="https://projectlombok.org">Lombok</a>
