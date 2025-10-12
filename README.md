@@ -1,6 +1,7 @@
 <h1 align="center">Amazon Searcher & Tracker (Telegram)</h1>
 
 <b>An old project of mine recovered from a hard drive ☺️</b>
+(Don't worry, I know that some parts of the database structure suck)
 
 This simple Telegram bot will allow you to perform a variety of tasks among those mentioned in the screenshot, including performing a search for Amazon discount products and tracking them. Additional utilities are also present, which you can safely observe by inspecting the bot's code. For any modifications you can refer to the <b>“settings.json”</b> configuration file in order to customize the various messages and parameters.<br/>
 
